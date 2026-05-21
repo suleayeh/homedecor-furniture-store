@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop premium dining tables, chairs, and full dining sets with a luxury finish at Home Decor and More.">
+  <title>Dining | Home Decor and More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="./dinning set.jpg" alt="Premium dining room with chandelier">
+      <div class="page-hero-content container">
+        <p class="eyebrow">Dining Collection</p>
+        <h1>Dining Tables, Chairs & Sets</h1>
+        <p>Premium dining furniture designed for elegance, warmth, and celebration.</p>
+      </div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="card-grid products-grid">
+        <article class="product-card premium">
+          <div class="product-media"><img loading="lazy" src="https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=900&q=80" alt="Luxury eight-seater dining set"></div>
+          <div class="product-info"><span class="premium-badge">Premium</span><h3>Grand 8-Seater Set</h3><p class="price">&#8358;3,48000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./dinning 1.jpg" alt="Marble top dining table"></div>
+          <div class="product-info"><h3>Marble Crest Table</h3><p class="price">&#8358;1,9200</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card premium">
+          <div class="product-media"><img loading="lazy" src="./dinning 2.jpg" alt="Luxury velvet dining chairs"></div>
+          <div class="product-info"><span class="premium-badge">Premium</span><h3>Velvet Dining Chairs (Set of 4)</h3><p class="price">&#8358;1,06000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./dinning3.jpg" alt="Modern wooden sideboard"></div>
+          <div class="product-info"><h3>Walnut Dining Sideboard</h3><p class="price">&#8358;840000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./dinning4.jpg" alt="Compact round dining table"></div>
+          <div class="product-info"><h3>Round Urban Table</h3><p class="price">&#8358;710000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./dinning set.jpg" alt="Dining bar cabinet with glass doors"></div>
+          <div class="product-info"><h3>Heritage Bar Cabinet</h3><p class="price">&#8358;99000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Home Decor and More</h3><p>Luxury furniture and decor crafted for refined living.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="decor.html">Decor</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+      <div><h4>Follow Us</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+

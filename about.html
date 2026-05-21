@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Home Decor and More, our story, mission, vision, and why customers choose our premium furniture brand.">
+  <title>About Us | Home Decor and More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1600&q=80" alt="Luxurious decorated modern home interior">
+      <div class="page-hero-content container">
+        <p class="eyebrow">About Home Decor and More</p>
+        <h1>Crafted for Timeless Living</h1>
+        <p>Where premium craftsmanship and modern luxury meet everyday comfort.</p>
+      </div>
+    </section>
+
+    <section class="section container two-col" data-reveal>
+      <div>
+        <p class="eyebrow">Our Story</p>
+        <h2>Built Around Elegant Spaces</h2>
+        <p>Home Decor and More was founded with one vision: to make refined interiors accessible to homes and workspaces that value beauty, comfort, and quality. From statement sofas to curated decor accents, each collection is selected for craftsmanship and timeless appeal.</p>
+      </div>
+      <div class="panel">
+        <h3>What We Stand For</h3>
+        <ul class="clean-list">
+          <li>Premium quality materials</li>
+          <li>Modern luxury design language</li>
+          <li>Comfort-first craftsmanship</li>
+          <li>Trusted customer experience</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container three-col" data-reveal>
+      <article class="panel">
+        <p class="eyebrow">Mission</p>
+        <h3>Elevate Everyday Living</h3>
+        <p>To deliver furniture that transforms rooms into elegant, functional spaces for modern lifestyles.</p>
+      </article>
+      <article class="panel">
+        <p class="eyebrow">Vision</p>
+        <h3>Leading Luxury Interiors</h3>
+        <p>To become a globally trusted luxury furniture brand known for style, quality, and innovation.</p>
+      </article>
+      <article class="panel">
+        <p class="eyebrow">Why Choose Us</p>
+        <h3>Luxury You Can Trust</h3>
+        <p>Exclusive collections, expert curation, and dedicated service from first click to final delivery.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Home Decor and More</h3><p>Luxury furniture and decor crafted for refined living.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="decor.html">Decor</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+      <div><h4>Follow Us</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+

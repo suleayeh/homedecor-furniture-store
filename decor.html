@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover premium home decor including wall art, mirrors, rugs, and lighting at Home Decor and More.">
+  <title>Decor | Home Decor and More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="./decor1.jpg" alt="Luxury home decor arrangement with mirrors and lamps">
+      <div class="page-hero-content container">
+        <p class="eyebrow">Decor Collection</p>
+        <h1>Artful Accents and Finishing Touches</h1>
+        <p>Complete your home with statement decor that blends luxury and personality.</p>
+      </div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="card-grid products-grid">
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./decor1.jpg" alt="Large round statement mirror"></div>
+          <div class="product-info"><h3>Regal </h3><p class="price">&#8358;39000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./decor2.jpg" alt="Decorative sculptural table lamp"></div>
+          <div class="product-info"><h3> Arc Table </h3><p class="price">&#8358;240000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./decor3.jpg" alt="Soft textured living room rug"></div>
+          <div class="product-info"><h3>Signature</h3><p class="price">&#8358;460000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./decor4.jpg" alt="Wall art panels in modern interior"></div>
+          <div class="product-info"><h3>Abstract Wall Art Set</h3><p class="price">&#8358;310000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./decor5.jpg" alt="Decorative vases on sideboard"></div>
+          <div class="product-info"><h3> Trio</h3><p class="price">&#8358;180000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card premium">
+          <div class="product-media"><img loading="lazy" src="./decor6.jpg" alt="Luxury chandelier above dining table"></div>
+          <div class="product-info"><span class="premium-badge">Premium</span><h3>Auric</h3><p class="price">&#8358;98000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Home Decor and More</h3><p>Luxury furniture and decor crafted for refined living.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="decor.html">Decor</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+      <div><h4>Follow Us</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

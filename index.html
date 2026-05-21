@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Home Decor and More offers luxury furniture and decor collections for living room, bedroom, and dining spaces with a modern premium finish.">
+  <title>Home Decor and More | Luxury Furniture and Decor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-slider" data-slider>
+      <article class="slide is-active slide-living-royal">
+        <img src="./royal chair.jpg" data-fallback-src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80" alt="Luxury gold living room sofa set with ornate coffee table" fetchpriority="high">
+        <div class="slide-content">
+          <span class="sale-tag">On Sale</span>
+          <h1>Royal Living Collection</h1>
+          <p>Classic statement sofas and carved gold details for a grand living room.</p>
+          <a href="living-room.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </article>
+      <article class="slide slide-living-modern">
+        <img src="./sofa.jpg" data-fallback-src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80" alt="Modern white sofa with round coffee tables in a bright living room" loading="lazy">
+        <div class="slide-content">
+          <span class="sale-tag">On Sale</span>
+          <h2>Modern Comfort Pieces</h2>
+          <p>Soft textures, clean lines, and lounge-ready furniture for everyday elegance.</p>
+          <a href="living-room.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </article>
+      <article class="slide slide-lamp">
+        <img src="./Petal Glow Floor Lamp – Modern Art Meets Ambient Lighting.jpg" data-fallback-src="https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?auto=format&fit=crop&w=1600&q=80" alt="Tall flower shaped floor lamp glowing in a warm interior" loading="lazy">
+        <div class="slide-content">
+          <span class="sale-tag">On Sale</span>
+          <h2>Signature Lighting</h2>
+          <p>Decor lights that bring warmth, height, and sculptural beauty to your space.</p>
+          <a href="decor.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </article>
+      <article class="slide slide-bedroom">
+        <img src="assets/images/slideshow-gold-bedroom.jpg" data-fallback-src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80" alt="Luxury gold bedroom set with chandelier and ornate headboard" loading="lazy">
+        <div class="slide-content">
+          <span class="sale-tag">On Sale</span>
+          <h2>Royal Bedroom Collection</h2>
+          <p>Elegant beds, rich fabrics, and polished details for a refined private retreat.</p>
+          <a href="bedroom.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </article>
+      <button class="slider-btn prev" data-slider-prev aria-label="Previous slide">&#10094;</button>
+      <button class="slider-btn next" data-slider-next aria-label="Next slide">&#10095;</button>
+      <div class="slider-dots" data-slider-dots></div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="section-head">
+        <p class="eyebrow">Featured Picks</p>
+        <h2>Most Loved Pieces</h2>
+      </div>
+      <div class="card-grid products-grid">
+        <article class="product-card">
+          <div class="product-media">
+            <img loading="lazy" src="./velvet accent chair.jpg" alt="Velvet accent armchair">
+          </div>
+          <div class="product-info">
+            <h3>Velvet Accent Chair</h3>
+            <p class="price">&#8358; 500,000</p>
+            <a class="btn btn-ghost" href="living-room.html">View Details</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img loading="lazy" src="./monarch bed.jpg" alt="Minimalist wooden bed frame">
+          </div>
+          <div class="product-info">
+            <h3>Monarch Bed Frame</h3>
+            <p class="price">&#8358; 1,250,000</p>
+            <a class="btn btn-ghost" href="bedroom.html">View Details</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img loading="lazy" src="./marble dining table.jpg" alt="Luxury marble dining table">
+          </div>
+          <div class="product-info">
+            <h3>Marble Dining Table</h3>
+            <p class="price">&#8358; 5,840,000</p>
+            <a class="btn btn-ghost" href="dining.html">View Details</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img loading="lazy" src="./luxe decor bundle.jpg" alt="Decorative table lamp and wall art set">
+          </div>
+          <div class="product-info">
+            <h3>Luxe Decor Bundle</h3>
+            <p class="price">&#8358; 520,000</p>
+            <a class="btn btn-ghost" href="decor.html">View Details</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="section-head">
+        <p class="eyebrow">Browse Categories</p>
+        <h2>Style for Every Corner</h2>
+      </div>
+      <div class="card-grid category-grid">
+        <article class="category-card">
+          <div class="category-icon" aria-hidden="true">&#128715;</div>
+          <h3>Living Room</h3>
+          <p>Statement sofas, coffee tables, and elegant lounge accents.</p>
+          <a href="living-room.html" class="btn btn-ghost">Explore</a>
+        </article>
+        <article class="category-card">
+          <div class="category-icon" aria-hidden="true">&#128719;</div>
+          <h3>Bedroom</h3>
+          <p>Rest in style with premium beds, wardrobes, and nightstands.</p>
+          <a href="bedroom.html" class="btn btn-ghost">Explore</a>
+        </article>
+        <article class="category-card">
+          <div class="category-icon" aria-hidden="true">&#127869;</div>
+          <h3>Dining</h3>
+          <p>Dining sets designed for memorable moments and gatherings.</p>
+          <a href="dining.html" class="btn btn-ghost">Explore</a>
+        </article>
+        <article class="category-card">
+          <div class="category-icon" aria-hidden="true">&#127968;</div>
+          <h3>Decor</h3>
+          <p>Wall art, mirrors, rugs, and accents that complete your look.</p>
+          <a href="decor.html" class="btn btn-ghost">Explore</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="section-head">
+        <p class="eyebrow">Testimonies</p>
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div class="card-grid testimony-grid">
+        <article class="testimony-card">
+          <p class="quote">"The quality was far above expectations. My living room now feels like a luxury suite."</p>
+          <h3>Amelia R.</h3>
+          <p class="muted-line">Interior Stylist, Lagos</p>
+        </article>
+        <article class="testimony-card">
+          <p class="quote">"Delivery was smooth and the team helped me choose decor that matched my exact vision."</p>
+          <h3>Daniel K.</h3>
+          <p class="muted-line">Homeowner, Abuja</p>
+        </article>
+        <article class="testimony-card">
+          <p class="quote">"Elegant designs, friendly support, and truly comfortable furniture. Highly recommended."</p>
+          <h3>Nora T.</h3>
+          <p class="muted-line">Architect, Port Harcourt</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta-strip" data-reveal>
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">Exclusive Offers</p>
+          <h2>Refresh Your Home with Premium Craftsmanship</h2>
+          <p>Limited-time collections curated for modern luxury homes.</p>
+        </div>
+        <a href="decor.html" class="btn btn-primary">Shop Decor</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Home Decor and More</h3>
+        <p>Luxury furniture and decor crafted for refined living.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Pinterest</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>

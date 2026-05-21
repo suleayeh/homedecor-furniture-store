@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Home Decor and More for inquiries, support, and showroom details.">
+  <title>Contact | Home Decor and More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80" alt="Stylish premium interior setting">
+      <div class="page-hero-content container">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>Contact Home Decor and More</h1>
+        <p>We are here to help with orders, product guidance, and showroom visits.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-layout" data-reveal>
+      <div class="panel">
+        <h2>Send a Message</h2>
+        <form class="contact-form" action="backend/contact.php" method="post">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside class="panel contact-info">
+        <h2>Contact Details</h2>
+        <p><strong>Phone:</strong> +234 7069055822</p>
+        <p><strong>Email:</strong> support@homedecorandmore.com</p>
+        <p><strong>Location:</strong> Zoo Road, Kano</p>
+        <h3>Social Media</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Home Decor and More</h3><p>Luxury furniture and decor crafted for refined living.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="decor.html">Decor</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+      <div><h4>Follow Us</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

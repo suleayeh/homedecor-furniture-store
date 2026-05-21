@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop luxurious living room furniture including sofas, chairs, and tables at Home Decor and More.">
+  <title>Living Room | Home Decor and More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home Decor and More home">
+        <img src="./homedecor logo.png" alt="Home Decor and More logo" class="brand-logo">
+        <span class="brand-title">Home Decor and More</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="living-room.html">Living Room</a>
+        <a href="bedroom.html">Bedroom</a>
+        <a href="dining.html">Dining</a>
+        <a href="decor.html">Decor</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-search-toggle aria-label="Open search">⌕</button>
+        <button class="icon-btn cart-toggle" type="button" data-cart-toggle aria-label="Open cart">🛒<span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="./sofa.jpg" alt="Contemporary luxury living room interior">
+      <div class="page-hero-content container">
+        <p class="eyebrow">Living Room Collection</p>
+        <h1>Sofas, Chairs & Tables</h1>
+        <p>Build a warm and elegant lounge experience with premium statement pieces.</p>
+      </div>
+    </section>
+
+    <section class="section container" data-reveal>
+      <div class="card-grid products-grid">
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./imperial sofa.jpg" alt="Luxury leather sectional sofa"></div>
+          <div class="product-info"><h3>Imperial Sectional Sofa</h3><p class="price">&#8358;2,499000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=900&q=80" alt="Modern accent chair with gold base"></div>
+          <div class="product-info"><h3>Aurora Accent Chair</h3><p class="price">&#8358;570000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./Rhea Nesting Coffee Tables, S_2.jpg" alt="Minimalist coffee table set"></div>
+          <div class="product-info"><h3>Glass Nesting Coffee Table</h3><p class="price">&#8358;690000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="./royal tv console.jpg" alt="Contemporary TV console with storage"></div>
+          <div class="product-info"><h3>Royal TV Console</h3><p class="price">&#8358;780000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&fit=crop&w=900&q=80" alt="Round side table in dark walnut finish"></div>
+          <div class="product-info"><h3>Walnut Side Table</h3><p class="price">&#8358;230000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-media"><img loading="lazy" src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=900&q=80" alt="Elegant bookcase for living room decor"></div>
+          <div class="product-info"><h3>Grand Display Bookcase</h3><p class="price">&#8358;860000</p><a class="btn btn-ghost" href="#">View Details</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Home Decor and More</h3><p>Luxury furniture and decor crafted for refined living.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="decor.html">Decor</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+      <div><h4>Follow Us</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Home Decor and More. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
